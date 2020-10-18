@@ -1,0 +1,13 @@
+.dotted{
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.box-class{
+    width: 200px;
+    text-align: left;
+}
+
+.text-align-right-class{
+    text-align: right;
+}
