@@ -16,3 +16,17 @@ dl{
     margin-left: 1em;
 }
 
+.number-class{
+    color: white;
+    background: black;
+    border: white solid 1px;
+    display: block;
+    font-size: 20px;
+}
+
+.number{
+    background-color: black;
+    display: inline-block;
+    padding: 1px 1px;
+}
+
