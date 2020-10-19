@@ -12,8 +12,7 @@
     font-size: 45px;
 }
 
-.TextDistance{
-    margin-left: 20px;
-    display: block;
+dl{
+    margin-left: 1em;
 }
 
