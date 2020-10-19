@@ -1,0 +1,19 @@
+.TextAlignCenter{
+    text-align: center;
+}
+
+.Center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FontSize{
+    font-size: 45px;
+}
+
+.TextDistance{
+    margin-left: 20px;
+    display: block;
+}
+
