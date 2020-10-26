@@ -1,0 +1,45 @@
+.flex-container {
+    display: flex;
+    background-color: rgb(205, 235, 139);
+    flex-wrap: wrap;
+    width: 304px;
+    box-shadow: 2px 3px rgb(223, 224, 232);
+}
+
+.square-div {
+    border: solid 1px rgb(195, 214, 225);
+    height: 50px;
+    width: 50px;
+    background-color: rgb(217, 232, 251);
+    margin: 2px;
+}
+
+.rectangle {
+    border: solid 1px rgb(239, 219, 173);
+    width: 130px;
+    height: 50px;
+    background-color: rgb(255, 230, 205);
+    margin: 2px;
+}
+
+.difference-bgc {
+    border: solid 1px rgb(205, 235, 139);
+    background-color: rgb(205, 235, 139);
+}
+
+.rectangle-square {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(205, 235, 139);
+    justify-content: flex-end;
+    margin: 2px 3px;
+    border: 0;
+}
+
+.square-in-rectangle {
+    margin: 0 2px;
+}
+
+.rectangle-square-center {
+    justify-content: center;
+}
