@@ -5,7 +5,11 @@
     width: 304px;
     box-shadow: 2px 3px rgb(223, 224, 232);
 }
-
+.row-flex {
+    display: flex;
+    justify-content: space-between;
+    width: inherit
+}
 .square-div {
     border: solid 1px rgb(195, 214, 225);
     height: 50px;
@@ -42,4 +46,8 @@
 
 .rectangle-square-center {
     justify-content: center;
+}
+
+.rectangle-square .margin-right--1px {
+    margin-right: -1px;
 }
