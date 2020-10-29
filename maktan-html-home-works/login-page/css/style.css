@@ -30,7 +30,7 @@ input {
     font-size: 18px;
     background: inherit;
     color: white;
-    width: 300px;
+    width: 400px;
     border: none;
     border-radius: 0;
     /*border-bottom: 1px solid white;*/
@@ -56,7 +56,7 @@ input::placeholder {
     align-items: center;
     box-sizing: border-box;
     position: relative;
-    background-color:white;
+    background-color: white;
     display: inline-flex;
     color: black;
     font-size: 5px;
@@ -70,7 +70,7 @@ input::placeholder {
     font-family: 'Lateef', cursive;
 }
 
-.h1-font-size{
+.h1-font-size {
     font-size: 60px;
     font-weight: normal;
 }
@@ -84,6 +84,7 @@ input::placeholder {
     justify-content: center;
     align-items: center;
     background-color: #1d89e4;
+    width: 438px;
     height: 60px;
     border-radius: 10px;
 }
@@ -94,7 +95,7 @@ input::placeholder {
 }
 
 .font-size-small {
-    font-size: 15px;
+    font-size: 24px;
 }
 
 label {
@@ -110,6 +111,41 @@ label {
     text-decoration-line: none;
     color: white;
 }
+
+.label-checkbox {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .checkbox {
-    width: 10px;
+    display: none;
+}
+
+.checkmark {
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 2px 2px 2px 4px;
+}
+
+.label-checkbox input:checked ~ .checkmark {
+    background-color: #fff;
+}
+
+.label-checkbox .checkmark:after {
+    content: "";
+    display: none;
+    margin:2px 0 0 5px;
+    width: 5px;
+    height: 12px;
+    border: solid #1d89e4;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.label-checkbox input:checked ~ .checkmark:after {
+    display: block;
 }
