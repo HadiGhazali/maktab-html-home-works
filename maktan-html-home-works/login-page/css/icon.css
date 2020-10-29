@@ -1,0 +1,39 @@
+.Binders {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Binder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0d46a0;
+    width: 10px;
+    height: 30px;
+    align-items: center;
+}
+
+.Rectangle {
+    background-color: white;
+    width: 60%;
+    height: 13px;
+    margin: 3px;
+}
+
+.circle {
+    background-color: #1876d2;
+    border: solid white 2px;
+    margin: 2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+
+ .Binder-color-1 {
+     background-color: #1776d2;
+ }
+
+ .Binder-color-2 {
+     background-color: #1f95f3;
+ }
